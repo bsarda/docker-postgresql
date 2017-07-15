@@ -6,7 +6,7 @@
 FROM centos:7
 LABEL maintainer "b.sarda@free.fr"
 
-# declare vars!
+# declare vars
 ENV ADMIN_USER=admin \
     ADMIN_PASSWORD=admin \
     PGDATA=/var/lib/pgsql/9.5/data \
